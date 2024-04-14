@@ -1,3 +1,6 @@
+// Package containing the methods 
+// used to simulate the experiments.
+
 package experiment
 
 import (
