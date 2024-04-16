@@ -25,7 +25,7 @@ const (
 )
 
 func Cprint(t string, c string) {
-	fmt.Println(c, t, colorReset)
+	fmt.Printf("%s%s%s\n", c, t, colorReset)
 }
 
 func Cprintf(t string, c string) {
