@@ -15,6 +15,6 @@ func main() {
 	var end  time.Duration = time.Since(t)
 	tc.Cprintf("Empirical P =", tc.FgGreen)
 	fmt.Printf(" %.7f\n",exp.Stats(res))
-	tc.Cprintf("Took: ", tc.FgGreen)	 
+	tc.Cprintf("Took: ", tc.FgGreen)
 	fmt.Printf("%s\n", end)
 }
